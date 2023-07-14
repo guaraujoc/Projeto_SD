@@ -55,4 +55,14 @@ A&nbsp;&nbsp;&nbsp;&nbsp; Antes de implementar o contador, será necessário des
 
 ## Terceira Parte
 
+&nbsp;&nbsp;&nbsp;&nbsp; Nesta etapa, vamos apresentar a implementação de um contador digital BCD (Binary Coded Decimal) que varia de 000 a 999. Esse tipo de contador é amplamente utilizado para exibir valores decimais em displays de sete segmentos, sendo essencial em aplicações que envolvem exibição de números.
+
+&nbsp;&nbsp;&nbsp;&nbsp; O contador será implementado em Verilog, utilizando os componentes desenvolvidos anteriormente, como o Flip-flop tipo D com reset e clock enable, além do decodificador BCD para display de sete segmentos. Esses componentes serão combinados de forma a criar um circuito que realize a contagem de 000 a 999, representando os valores em formato BCD.
+
+&nbsp;&nbsp;&nbsp;&nbsp; A implementação do contador digital BCD será uma aplicação prática e importante dos conceitos estudados em sistemas digitais, demonstrando a capacidade de criar circuitos complexos utilizando os componentes básicos desenvolvidos anteriormente. Essa implementação é fundamental em projetos que envolvem exibição de números, como displays de relógios, medidores, sistemas de automação e muitas outras aplicações em que a contagem de valores decimais é necessária.
+
 ## Quarta Parte
+
+&nbsp;&nbsp;&nbsp;&nbsp; Nesta última etapa, iremos abordar a implementação de uma máquina de estados para controlar um conversor analógico para digital (ADC) do tipo rampa dupla (dual slope). O ADC de rampa dupla é uma técnica amplamente utilizada na conversão de sinais analógicos em sinais digitais, permitindo a medição precisa de valores analógicos.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Esse sistema tem aplicações em áreas como instrumentação e controle, conversores de tensão, sistemas de áudio e vídeo, telecomunicações e monitoramento biomédico. Ele desempenha um papel fundamental na conversão precisa de sinais analógicos em formato digital, permitindo o processamento, controle e transmissão de dados de forma confiável e eficiente. Dessa forma, precisão e confiabilidade são essenciais para garantir um funcionamento adequado dos sistemas e obter resultados precisos em diversas áreas de aplicação.
