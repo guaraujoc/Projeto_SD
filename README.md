@@ -25,7 +25,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; A implementação desse decodificador é de extrema importância em sistemas digitais que necessitam exibir informações numéricas de forma visual, como em painéis de instrumentos, displays de relógios, calculadora e muitos outros dispositivos. Tal decodificador é uma parte fundamental desses sistemas, pois permite a representação dos números 0 a 9 em um display de segmentos.
 
-&nbsp;&nbsp;&nbsp;&nbsp; Para a sua implementação, iremos apresentar 4 maneiras diferentes de descrição, são elas:
+&nbsp;&nbsp;&nbsp;&nbsp; Para a sua implementação, iremos apresentar 4 maneiras diferentes de descrição utilizando a linguagem de descrição de hardware (HDL) Verilog, são elas:
 
 - Primitivas ou Rede de ligações (not, and, orr, xor, xnor, nan, nor);
 - Declarações Concorrentes com Operadores Lógicos (~ & | ^ ~ ^);
@@ -34,3 +34,25 @@
 
 
 &nbsp;&nbsp;&nbsp;&nbsp; Cada uma das técnicas de descrição apresenta suas próprias características e vantagens, permitindo flexibilidade na implementação do circuito lógico.
+
+## Segunda Parte
+
+&nbsp;&nbsp;&nbsp;&nbsp; Nesta etapa, abordaremos a implementação de um contador binário parametrizável de 'width' bits. Esse tipo de contador é amplamente utilizado em sistemas digitais para realizar contagens incrementais de forma síncrona, sendo controlado por um sinal de clock.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Além da contagem binária, o contador contará com recursos adicionais para atender aos requisitos específicos do projeto. Em primeiro lugar, ele será projetado para contar até um valor máximo determinado pelo parâmetro 'max_value'. Quando a contagem atingir esse valor máximo, um sinal de saída denominado 'cnt_max' será ativado, indicando que o limite foi alcançado.
+
+&nbsp;&nbsp;&nbsp;&nbsp; O contador também terá sinais de controle, como 'enb' (habilitação da contagem) e 'rst_s' (reset assíncrono), que permitirão controlar o início, parada e reinício da contagem, respectivamente. Esses sinais de controle fornecem flexibilidade ao contador, permitindo que ele seja adaptado às necessidades do projeto.
+
+A&nbsp;&nbsp;&nbsp;&nbsp; Antes de implementar o contador, será necessário descrever um elemento fundamental chamado Flip-flop tipo D com reset e clock enable. Esse Flip-flop é responsável por armazenar e atualizar o valor do contador a cada pulso de clock, além de fornecer recursos de reset e habilitação da contagem.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Uma vez compreendido o funcionamento do Flip-flop tipo D com reset e clock enable, será possível prosseguir com a implementação do contador. Para isso, serão exploradas diferentes técnicas de descrição de hardware (HDL) Verilog, como a utilização de Flip-flops com generate e Rede de Ligações, bem como a descrição procedural ou comportamental utilizando a estrutura always if-else.
+
+- Assíncrono, utilização de Flip-flops
+- Síncrono, com generate e Rede de Ligações;
+- Com incremento, utilizando Declaração Procedural ou Comportamental (always if-else).
+
+&nbsp;&nbsp;&nbsp;&nbsp; Essas implementações do contador binário parametrizável nos permitirão criar circuitos flexíveis, capazes de contar de forma síncrona e eficiente, adaptando-se aos requisitos específicos de contagem de cada projeto. A utilização de contadores é essencial em sistemas digitais para realizar tarefas de contagem, controle e sincronização, sendo aplicados em uma ampla variedade de dispositivos e aplicações, como contadores de tempo, contadores de eventos, sequenciadores e muito mais.
+
+## Terceira Parte
+
+## Quarta Parte
