@@ -1,6 +1,6 @@
-# Projeto_SD
-
 &nbsp;&nbsp;&nbsp;&nbsp;Universidade de São Paulo
+
+&nbsp;&nbsp;&nbsp;&nbsp;SEL0628 - Sistemas Digitais
 
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Gabriel Savassi Engler / 11844771
 
