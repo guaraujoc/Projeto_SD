@@ -1,12 +1,19 @@
 # Projeto_SD
 
 &nbsp;&nbsp;&nbsp;&nbsp;Universidade de São Paulo
+
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Gabriel Savassi Engler / 11844771
+
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Gustavo Carvalho Araújo / 13735630
+
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Gabriel João Marcelo Moreira Trovão Filho / 13676332
+
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Oliver Kenzo Kobayashi / 13676930
+
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Vítor Augusto Paiva de Brito / 13732303
+
 &nbsp;&nbsp;&nbsp;&nbsp;Aluno Yazid Alamou Bouari / 13551034
+
 
 ## Primeira Parte
 
